@@ -1,2 +1,5 @@
 language: rust
-script: true
+script: cargo test
+
+after_success:
+  - 'echo success'
